@@ -1,0 +1,16 @@
+{
+  "name": "ink-token-disperser",
+  "version": "1.0.0",
+  "description": "Token dispersal application for Kraken's Ink Layer 2",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd webapp && npm run dev",
+    "build": "cd webapp && npm run build",
+    "compile": "cd contracts && npx hardhat compile",
+    "test": "cd contracts && npx hardhat test",
+    "deploy": "cd contracts && npx hardhat run scripts/deploy.js --network ink"
+  },
+  "keywords": ["ink", "layer2", "token", "disperser", "airdrop"],
+  "author": "",
+  "license": "MIT"
+}
